@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F25E90ED1DE473200052E0AD /* fisrtProfileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F25E90EC1DE473200052E0AD /* fisrtProfileImage.png */; };
 		F283E27A1DE459A80030FFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2791DE459A80030FFC0 /* AppDelegate.swift */; };
 		F283E27F1DE459A80030FFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F283E27D1DE459A80030FFC0 /* Main.storyboard */; };
 		F283E2811DE459A80030FFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F283E2801DE459A80030FFC0 /* Assets.xcassets */; };
 		F283E2841DE459A80030FFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F283E2821DE459A80030FFC0 /* LaunchScreen.storyboard */; };
 		F283E28F1DE459A80030FFC0 /* pleetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E28E1DE459A80030FFC0 /* pleetTests.swift */; };
 		F283E29A1DE459A80030FFC0 /* pleetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2991DE459A80030FFC0 /* pleetUITests.swift */; };
-		F283E2AA1DE4614B0030FFC0 /* NearListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2A91DE4614B0030FFC0 /* NearListViewController.swift */; };
-		F283E2AC1DE461750030FFC0 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2AB1DE461740030FFC0 /* FriendListViewController.swift */; };
+		F283E2AF1DE465010030FFC0 /* NearListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2AE1DE465010030FFC0 /* NearListViewController.swift */; };
+		F283E2B11DE46C030030FFC0 /* NearListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2B01DE46C030030FFC0 /* NearListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F25E90EC1DE473200052E0AD /* fisrtProfileImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fisrtProfileImage.png; sourceTree = "<group>"; };
 		F283E2761DE459A80030FFC0 /* pleet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pleet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F283E2791DE459A80030FFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F283E27E1DE459A80030FFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,8 +49,8 @@
 		F283E2951DE459A80030FFC0 /* pleetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pleetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F283E2991DE459A80030FFC0 /* pleetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pleetUITests.swift; sourceTree = "<group>"; };
 		F283E29B1DE459A80030FFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F283E2A91DE4614B0030FFC0 /* NearListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearListViewController.swift; sourceTree = "<group>"; };
-		F283E2AB1DE461740030FFC0 /* FriendListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		F283E2AE1DE465010030FFC0 /* NearListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NearListViewController.swift; path = ../NearListViewController.swift; sourceTree = "<group>"; };
+		F283E2B01DE46C030030FFC0 /* NearListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,15 @@
 		F283E2781DE459A80030FFC0 /* pleet */ = {
 			isa = PBXGroup;
 			children = (
+				F25E90EC1DE473200052E0AD /* fisrtProfileImage.png */,
 				F283E2791DE459A80030FFC0 /* AppDelegate.swift */,
-				F283E2AB1DE461740030FFC0 /* FriendListViewController.swift */,
-				F283E2A91DE4614B0030FFC0 /* NearListViewController.swift */,
+				F283E2AE1DE465010030FFC0 /* NearListViewController.swift */,
+				F283E2B01DE46C030030FFC0 /* NearListCell.swift */,
 				F283E27D1DE459A80030FFC0 /* Main.storyboard */,
-				F283E2801DE459A80030FFC0 /* Assets.xcassets */,
 				F283E2821DE459A80030FFC0 /* LaunchScreen.storyboard */,
+				F283E2801DE459A80030FFC0 /* Assets.xcassets */,
 				F283E2851DE459A80030FFC0 /* Info.plist */,
+				F283E2AD1DE462460030FFC0 /* assets */,
 			);
 			path = pleet;
 			sourceTree = "<group>";
@@ -126,6 +130,13 @@
 				F283E29B1DE459A80030FFC0 /* Info.plist */,
 			);
 			path = pleetUITests;
+			sourceTree = "<group>";
+		};
+		F283E2AD1DE462460030FFC0 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25E90ED1DE473200052E0AD /* fisrtProfileImage.png in Resources */,
 				F283E2841DE459A80030FFC0 /* LaunchScreen.storyboard in Resources */,
 				F283E2811DE459A80030FFC0 /* Assets.xcassets in Resources */,
 				F283E27F1DE459A80030FFC0 /* Main.storyboard in Resources */,
@@ -261,9 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F283E2AA1DE4614B0030FFC0 /* NearListViewController.swift in Sources */,
+				F283E2AF1DE465010030FFC0 /* NearListViewController.swift in Sources */,
+				F283E2B11DE46C030030FFC0 /* NearListCell.swift in Sources */,
 				F283E27A1DE459A80030FFC0 /* AppDelegate.swift in Sources */,
-				F283E2AC1DE461750030FFC0 /* FriendListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +520,7 @@
 				F283E2A01DE459A80030FFC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F283E2A11DE459A80030FFC0 /* Build configuration list for PBXNativeTarget "pleetTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +529,7 @@
 				F283E2A31DE459A80030FFC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F283E2A41DE459A80030FFC0 /* Build configuration list for PBXNativeTarget "pleetUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +538,7 @@
 				F283E2A61DE459A80030FFC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
