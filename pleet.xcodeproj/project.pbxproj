@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F283E27A1DE459A80030FFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2791DE459A80030FFC0 /* AppDelegate.swift */; };
+		F283E27C1DE459A80030FFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E27B1DE459A80030FFC0 /* ViewController.swift */; };
+		F283E27F1DE459A80030FFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F283E27D1DE459A80030FFC0 /* Main.storyboard */; };
+		F283E2811DE459A80030FFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F283E2801DE459A80030FFC0 /* Assets.xcassets */; };
+		F283E2841DE459A80030FFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F283E2821DE459A80030FFC0 /* LaunchScreen.storyboard */; };
+		F283E28F1DE459A80030FFC0 /* pleetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E28E1DE459A80030FFC0 /* pleetTests.swift */; };
+		F283E29A1DE459A80030FFC0 /* pleetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2991DE459A80030FFC0 /* pleetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F283E28B1DE459A80030FFC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F283E26E1DE459A80030FFC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F283E2751DE459A80030FFC0;
+			remoteInfo = pleet;
+		};
+		F283E2961DE459A80030FFC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F283E26E1DE459A80030FFC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F283E2751DE459A80030FFC0;
+			remoteInfo = pleet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F283E2761DE459A80030FFC0 /* pleet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pleet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F283E2791DE459A80030FFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F283E27B1DE459A80030FFC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F283E27E1DE459A80030FFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F283E2801DE459A80030FFC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F283E2831DE459A80030FFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F283E2851DE459A80030FFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F283E28A1DE459A80030FFC0 /* pleetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pleetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F283E28E1DE459A80030FFC0 /* pleetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pleetTests.swift; sourceTree = "<group>"; };
+		F283E2901DE459A80030FFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F283E2951DE459A80030FFC0 /* pleetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pleetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F283E2991DE459A80030FFC0 /* pleetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pleetUITests.swift; sourceTree = "<group>"; };
+		F283E29B1DE459A80030FFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F283E2731DE459A80030FFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F283E2871DE459A80030FFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F283E2921DE459A80030FFC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F283E26D1DE459A80030FFC0 = {
+			isa = PBXGroup;
+			children = (
+				F283E2781DE459A80030FFC0 /* pleet */,
+				F283E28D1DE459A80030FFC0 /* pleetTests */,
+				F283E2981DE459A80030FFC0 /* pleetUITests */,
+				F283E2771DE459A80030FFC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F283E2771DE459A80030FFC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F283E2761DE459A80030FFC0 /* pleet.app */,
+				F283E28A1DE459A80030FFC0 /* pleetTests.xctest */,
+				F283E2951DE459A80030FFC0 /* pleetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F283E2781DE459A80030FFC0 /* pleet */ = {
+			isa = PBXGroup;
+			children = (
+				F283E2791DE459A80030FFC0 /* AppDelegate.swift */,
+				F283E27B1DE459A80030FFC0 /* ViewController.swift */,
+				F283E27D1DE459A80030FFC0 /* Main.storyboard */,
+				F283E2801DE459A80030FFC0 /* Assets.xcassets */,
+				F283E2821DE459A80030FFC0 /* LaunchScreen.storyboard */,
+				F283E2851DE459A80030FFC0 /* Info.plist */,
+			);
+			path = pleet;
+			sourceTree = "<group>";
+		};
+		F283E28D1DE459A80030FFC0 /* pleetTests */ = {
+			isa = PBXGroup;
+			children = (
+				F283E28E1DE459A80030FFC0 /* pleetTests.swift */,
+				F283E2901DE459A80030FFC0 /* Info.plist */,
+			);
+			path = pleetTests;
+			sourceTree = "<group>";
+		};
+		F283E2981DE459A80030FFC0 /* pleetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F283E2991DE459A80030FFC0 /* pleetUITests.swift */,
+				F283E29B1DE459A80030FFC0 /* Info.plist */,
+			);
+			path = pleetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F283E2751DE459A80030FFC0 /* pleet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F283E29E1DE459A80030FFC0 /* Build configuration list for PBXNativeTarget "pleet" */;
+			buildPhases = (
+				F283E2721DE459A80030FFC0 /* Sources */,
+				F283E2731DE459A80030FFC0 /* Frameworks */,
+				F283E2741DE459A80030FFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pleet;
+			productName = pleet;
+			productReference = F283E2761DE459A80030FFC0 /* pleet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F283E2891DE459A80030FFC0 /* pleetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F283E2A11DE459A80030FFC0 /* Build configuration list for PBXNativeTarget "pleetTests" */;
+			buildPhases = (
+				F283E2861DE459A80030FFC0 /* Sources */,
+				F283E2871DE459A80030FFC0 /* Frameworks */,
+				F283E2881DE459A80030FFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F283E28C1DE459A80030FFC0 /* PBXTargetDependency */,
+			);
+			name = pleetTests;
+			productName = pleetTests;
+			productReference = F283E28A1DE459A80030FFC0 /* pleetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F283E2941DE459A80030FFC0 /* pleetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F283E2A41DE459A80030FFC0 /* Build configuration list for PBXNativeTarget "pleetUITests" */;
+			buildPhases = (
+				F283E2911DE459A80030FFC0 /* Sources */,
+				F283E2921DE459A80030FFC0 /* Frameworks */,
+				F283E2931DE459A80030FFC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F283E2971DE459A80030FFC0 /* PBXTargetDependency */,
+			);
+			name = pleetUITests;
+			productName = pleetUITests;
+			productReference = F283E2951DE459A80030FFC0 /* pleetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F283E26E1DE459A80030FFC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					F283E2751DE459A80030FFC0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F283E2891DE459A80030FFC0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F283E2751DE459A80030FFC0;
+					};
+					F283E2941DE459A80030FFC0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F283E2751DE459A80030FFC0;
+					};
+				};
+			};
+			buildConfigurationList = F283E2711DE459A80030FFC0 /* Build configuration list for PBXProject "pleet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F283E26D1DE459A80030FFC0;
+			productRefGroup = F283E2771DE459A80030FFC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F283E2751DE459A80030FFC0 /* pleet */,
+				F283E2891DE459A80030FFC0 /* pleetTests */,
+				F283E2941DE459A80030FFC0 /* pleetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F283E2741DE459A80030FFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F283E2841DE459A80030FFC0 /* LaunchScreen.storyboard in Resources */,
+				F283E2811DE459A80030FFC0 /* Assets.xcassets in Resources */,
+				F283E27F1DE459A80030FFC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F283E2881DE459A80030FFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F283E2931DE459A80030FFC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F283E2721DE459A80030FFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F283E27C1DE459A80030FFC0 /* ViewController.swift in Sources */,
+				F283E27A1DE459A80030FFC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F283E2861DE459A80030FFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F283E28F1DE459A80030FFC0 /* pleetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F283E2911DE459A80030FFC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F283E29A1DE459A80030FFC0 /* pleetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F283E28C1DE459A80030FFC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F283E2751DE459A80030FFC0 /* pleet */;
+			targetProxy = F283E28B1DE459A80030FFC0 /* PBXContainerItemProxy */;
+		};
+		F283E2971DE459A80030FFC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F283E2751DE459A80030FFC0 /* pleet */;
+			targetProxy = F283E2961DE459A80030FFC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F283E27D1DE459A80030FFC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F283E27E1DE459A80030FFC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F283E2821DE459A80030FFC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F283E2831DE459A80030FFC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F283E29C1DE459A80030FFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F283E29D1DE459A80030FFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F283E29F1DE459A80030FFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pleet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shellednust.pleet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F283E2A01DE459A80030FFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pleet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shellednust.pleet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F283E2A21DE459A80030FFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pleetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shellednust.pleetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pleet.app/pleet";
+			};
+			name = Debug;
+		};
+		F283E2A31DE459A80030FFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pleetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shellednust.pleetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pleet.app/pleet";
+			};
+			name = Release;
+		};
+		F283E2A51DE459A80030FFC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = pleetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shellednust.pleetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = pleet;
+			};
+			name = Debug;
+		};
+		F283E2A61DE459A80030FFC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = pleetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shellednust.pleetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = pleet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F283E2711DE459A80030FFC0 /* Build configuration list for PBXProject "pleet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F283E29C1DE459A80030FFC0 /* Debug */,
+				F283E29D1DE459A80030FFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F283E29E1DE459A80030FFC0 /* Build configuration list for PBXNativeTarget "pleet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F283E29F1DE459A80030FFC0 /* Debug */,
+				F283E2A01DE459A80030FFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F283E2A11DE459A80030FFC0 /* Build configuration list for PBXNativeTarget "pleetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F283E2A21DE459A80030FFC0 /* Debug */,
+				F283E2A31DE459A80030FFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F283E2A41DE459A80030FFC0 /* Build configuration list for PBXNativeTarget "pleetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F283E2A51DE459A80030FFC0 /* Debug */,
+				F283E2A61DE459A80030FFC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F283E26E1DE459A80030FFC0 /* Project object */;
+}
