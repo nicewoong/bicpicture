@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F283E27A1DE459A80030FFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2791DE459A80030FFC0 /* AppDelegate.swift */; };
-		F283E27C1DE459A80030FFC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E27B1DE459A80030FFC0 /* ViewController.swift */; };
 		F283E27F1DE459A80030FFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F283E27D1DE459A80030FFC0 /* Main.storyboard */; };
 		F283E2811DE459A80030FFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F283E2801DE459A80030FFC0 /* Assets.xcassets */; };
 		F283E2841DE459A80030FFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F283E2821DE459A80030FFC0 /* LaunchScreen.storyboard */; };
 		F283E28F1DE459A80030FFC0 /* pleetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E28E1DE459A80030FFC0 /* pleetTests.swift */; };
 		F283E29A1DE459A80030FFC0 /* pleetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2991DE459A80030FFC0 /* pleetUITests.swift */; };
+		F283E2AA1DE4614B0030FFC0 /* NearListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2A91DE4614B0030FFC0 /* NearListViewController.swift */; };
+		F283E2AC1DE461750030FFC0 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2AB1DE461740030FFC0 /* FriendListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		F283E2761DE459A80030FFC0 /* pleet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pleet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F283E2791DE459A80030FFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F283E27B1DE459A80030FFC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F283E27E1DE459A80030FFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F283E2801DE459A80030FFC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F283E2831DE459A80030FFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		F283E2951DE459A80030FFC0 /* pleetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pleetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F283E2991DE459A80030FFC0 /* pleetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pleetUITests.swift; sourceTree = "<group>"; };
 		F283E29B1DE459A80030FFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F283E2A91DE4614B0030FFC0 /* NearListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearListViewController.swift; sourceTree = "<group>"; };
+		F283E2AB1DE461740030FFC0 /* FriendListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				F283E2791DE459A80030FFC0 /* AppDelegate.swift */,
-				F283E27B1DE459A80030FFC0 /* ViewController.swift */,
+				F283E2AB1DE461740030FFC0 /* FriendListViewController.swift */,
+				F283E2A91DE4614B0030FFC0 /* NearListViewController.swift */,
 				F283E27D1DE459A80030FFC0 /* Main.storyboard */,
 				F283E2801DE459A80030FFC0 /* Assets.xcassets */,
 				F283E2821DE459A80030FFC0 /* LaunchScreen.storyboard */,
@@ -258,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F283E27C1DE459A80030FFC0 /* ViewController.swift in Sources */,
+				F283E2AA1DE4614B0030FFC0 /* NearListViewController.swift in Sources */,
 				F283E27A1DE459A80030FFC0 /* AppDelegate.swift in Sources */,
+				F283E2AC1DE461750030FFC0 /* FriendListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = pleet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shellednust.pleet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = pleet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shellednust.pleet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
