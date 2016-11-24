@@ -10,7 +10,7 @@ import UIKit
 
 class NearListViewController: UITableViewController {
 
-    var currentNearUserList:[[String:String]] = []
+    var currentNearUserList:[[String:String]] = [] // <- 지금은 딕셔너리를 리스트로 구성했는데, 이후에는 User라는 클래스객체를 리스트로 하자.
     
     
     override func viewDidLoad() {
@@ -23,9 +23,9 @@ class NearListViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
         /* make test data */
-        let firstPerson = ["profileImage":"firstProfileImage.png", "profileName":"firstNema", "profileSimpleMessage":"fisrtMessage"]
-        let secondPerson = ["profileImage":"firstProfileImage.png", "profileName":"secondName", "profileSimpleMessage":"secondMessage"]
-        let thirdPerson = ["profileImage":"firstProfileImage.png", "profileName":"thirdNema", "profileSimpleMessage":"thirdMessage"]
+        let firstPerson = ["profileImage":"firstProfileImage.png", "profileName":"firstNema", "profileSimpleMessage":"fisrtMessage","backgroundImage":"back1.jpg"]
+        let secondPerson = ["profileImage":"firstProfileImage.png", "profileName":"secondName", "profileSimpleMessage":"secondMessage","backgroundImage":"back2.png"]
+        let thirdPerson = ["profileImage":"firstProfileImage.png", "profileName":"thirdNema", "profileSimpleMessage":"thirdMessage","backgroundImage":"back3.png"]
         
         currentNearUserList.append(firstPerson)
         currentNearUserList.append(secondPerson)
@@ -57,14 +57,36 @@ class NearListViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as! NearListCell // 뷰를 재활용 하기 위해 큐에서 놀고 있는
 
+        let row = indexPath.row // test
+        
         // Configure the cell...
-        cell.profileImageView.image = UIImage(named: "fisrtProfileImage.png")
-        cell.profileUserName.text = currentNearUserList[indexPath.row]["profileName"]
-        cell.profileSimpleMessage.text = currentNearUserList[indexPath.row]["profileSimpleMessage"]
+        cell.profileImageView.image = UIImage(named: "profile_default.jpg")
+        cell.profileUserName.text = currentNearUserList[row]["profileName"]
+        cell.profileSimpleMessage.text = currentNearUserList[row]["profileSimpleMessage"]
+        let backImage = currentNearUserList[row]["backgroundImage"]
+        cell.backgroundImage.image = UIImage(named:backImage!)
         
         return cell
     }
  
+    
+    // MARK: - Navigation
+    
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    // 세그웨이를 타고 다른 뷰로 넘어갈 때 호출되는 메서드임다.
+    // 정보를 다음 이동할 뷰컨트롤러로 넘겨줍니다. 이동하는 세그웨이를 구분해서 넘겨주면 됩니다. (세그웨이도 id가 있음)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+        //세그웨이를 구분해서 목표하는 세그웨이로 값을 넘겨줍니당.
+        if segue.identifier == "showPersonProfileDetail" {
+            (segue.destination as! ProfileDetailViewController).userProfile = currentNearUserList[(self.tableView.indexPathForSelectedRow)!.row]
+        }
+        
+    }
+    
+
+    
 
     /*
     // Override to support conditional editing of the table view.
@@ -101,14 +123,5 @@ class NearListViewController: UITableViewController {
     }
     */
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

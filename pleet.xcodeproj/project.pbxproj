@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F25E90ED1DE473200052E0AD /* fisrtProfileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F25E90EC1DE473200052E0AD /* fisrtProfileImage.png */; };
 		F283E27A1DE459A80030FFC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2791DE459A80030FFC0 /* AppDelegate.swift */; };
 		F283E27F1DE459A80030FFC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F283E27D1DE459A80030FFC0 /* Main.storyboard */; };
 		F283E2811DE459A80030FFC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F283E2801DE459A80030FFC0 /* Assets.xcassets */; };
@@ -16,6 +15,11 @@
 		F283E29A1DE459A80030FFC0 /* pleetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2991DE459A80030FFC0 /* pleetUITests.swift */; };
 		F283E2AF1DE465010030FFC0 /* NearListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2AE1DE465010030FFC0 /* NearListViewController.swift */; };
 		F283E2B11DE46C030030FFC0 /* NearListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F283E2B01DE46C030030FFC0 /* NearListCell.swift */; };
+		F29A211C1DE6B86700CFEC1E /* back2.png in Resources */ = {isa = PBXBuildFile; fileRef = F29A21191DE6B86700CFEC1E /* back2.png */; };
+		F29A211D1DE6B86700CFEC1E /* back1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F29A211A1DE6B86700CFEC1E /* back1.jpg */; };
+		F29A211E1DE6B86700CFEC1E /* back3.png in Resources */ = {isa = PBXBuildFile; fileRef = F29A211B1DE6B86700CFEC1E /* back3.png */; };
+		F29A21201DE6C75200CFEC1E /* ProfileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29A211F1DE6C75200CFEC1E /* ProfileDetailViewController.swift */; };
+		F29A21221DE6C85800CFEC1E /* profile_default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F29A21211DE6C85800CFEC1E /* profile_default.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F25E90EC1DE473200052E0AD /* fisrtProfileImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fisrtProfileImage.png; sourceTree = "<group>"; };
 		F283E2761DE459A80030FFC0 /* pleet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pleet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F283E2791DE459A80030FFC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F283E27E1DE459A80030FFC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		F283E29B1DE459A80030FFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F283E2AE1DE465010030FFC0 /* NearListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NearListViewController.swift; path = ../NearListViewController.swift; sourceTree = "<group>"; };
 		F283E2B01DE46C030030FFC0 /* NearListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearListCell.swift; sourceTree = "<group>"; };
+		F29A21191DE6B86700CFEC1E /* back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back2.png; sourceTree = "<group>"; };
+		F29A211A1DE6B86700CFEC1E /* back1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back1.jpg; sourceTree = "<group>"; };
+		F29A211B1DE6B86700CFEC1E /* back3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back3.png; sourceTree = "<group>"; };
+		F29A211F1DE6C75200CFEC1E /* ProfileDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDetailViewController.swift; sourceTree = "<group>"; };
+		F29A21211DE6C85800CFEC1E /* profile_default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile_default.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +109,8 @@
 		F283E2781DE459A80030FFC0 /* pleet */ = {
 			isa = PBXGroup;
 			children = (
-				F25E90EC1DE473200052E0AD /* fisrtProfileImage.png */,
+				F29A21231DE717AC00CFEC1E /* NearList */,
 				F283E2791DE459A80030FFC0 /* AppDelegate.swift */,
-				F283E2AE1DE465010030FFC0 /* NearListViewController.swift */,
-				F283E2B01DE46C030030FFC0 /* NearListCell.swift */,
 				F283E27D1DE459A80030FFC0 /* Main.storyboard */,
 				F283E2821DE459A80030FFC0 /* LaunchScreen.storyboard */,
 				F283E2801DE459A80030FFC0 /* Assets.xcassets */,
@@ -135,8 +141,22 @@
 		F283E2AD1DE462460030FFC0 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				F29A21211DE6C85800CFEC1E /* profile_default.jpg */,
+				F29A21191DE6B86700CFEC1E /* back2.png */,
+				F29A211A1DE6B86700CFEC1E /* back1.jpg */,
+				F29A211B1DE6B86700CFEC1E /* back3.png */,
 			);
 			name = assets;
+			sourceTree = "<group>";
+		};
+		F29A21231DE717AC00CFEC1E /* NearList */ = {
+			isa = PBXGroup;
+			children = (
+				F283E2AE1DE465010030FFC0 /* NearListViewController.swift */,
+				F283E2B01DE46C030030FFC0 /* NearListCell.swift */,
+				F29A211F1DE6C75200CFEC1E /* ProfileDetailViewController.swift */,
+			);
+			name = NearList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +226,7 @@
 				TargetAttributes = {
 					F283E2751DE459A80030FFC0 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					F283E2891DE459A80030FFC0 = {
 						CreatedOnToolsVersion = 8.1;
@@ -245,10 +265,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F25E90ED1DE473200052E0AD /* fisrtProfileImage.png in Resources */,
+				F29A211D1DE6B86700CFEC1E /* back1.jpg in Resources */,
 				F283E2841DE459A80030FFC0 /* LaunchScreen.storyboard in Resources */,
 				F283E2811DE459A80030FFC0 /* Assets.xcassets in Resources */,
 				F283E27F1DE459A80030FFC0 /* Main.storyboard in Resources */,
+				F29A211E1DE6B86700CFEC1E /* back3.png in Resources */,
+				F29A211C1DE6B86700CFEC1E /* back2.png in Resources */,
+				F29A21221DE6C85800CFEC1E /* profile_default.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F283E2AF1DE465010030FFC0 /* NearListViewController.swift in Sources */,
+				F29A21201DE6C75200CFEC1E /* ProfileDetailViewController.swift in Sources */,
 				F283E2B11DE46C030030FFC0 /* NearListCell.swift in Sources */,
 				F283E27A1DE459A80030FFC0 /* AppDelegate.swift in Sources */,
 			);
@@ -425,6 +449,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = pleet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -438,6 +464,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = pleet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
