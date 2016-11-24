@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreImage
 
 class NearListViewController: UITableViewController {
 
@@ -65,6 +66,22 @@ class NearListViewController: UITableViewController {
         cell.profileSimpleMessage.text = currentNearUserList[row]["profileSimpleMessage"]
         let backImage = currentNearUserList[row]["backgroundImage"]
         cell.backgroundImage.image = UIImage(named:backImage!)
+        
+    
+        // filter 를 적용해보자.
+        let profileImage = cell.backgroundImage.image
+        let cgImage = profileImage?.cgImage
+        let coreImage = CIImage(cgImage: cgImage!)
+        let filter = CIFilter(name: "CISepiaTone")
+        filter?.setValue(coreImage, forKey: kCIInputImageKey)
+        filter?.setValue(0.5, forKey: kCIInputIntensityKey)
+        
+        if let output = filter?.value(forKey: kCIOutputImageKey) as? CIImage {
+            let filteredImage = UIImage(ciImage: output)
+            cell.backgroundImage?.image = filteredImage
+        }else {
+            print("image filtering failed")
+        }
         
         return cell
     }
